@@ -82,7 +82,7 @@
 .sign-btn {
   background: transparent linear-gradient(180deg, #75be22 0%, #03963b 100%);
   border-radius: 20px;
-  width: 140px;
+  min-width: 140px;
   height: 45px;
   color: #fff;
   margin: auto;
