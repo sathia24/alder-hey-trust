@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+.header-section {
+}
+
+.header-part {
+  background-color: #01408a;
+  background-image: url(../image/BG.8e2252a5.svg);
+  background-size: cover;
+  padding: 40px 60px;
+  min-height: 350px;
+}
+.logo-section {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-part h1 {
+  width: 390px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 75px;
+}
+.hero-card {
+  margin-top: -70px;
+  margin-bottom: 70px;
+}
+.hero-block {
+  margin: 0 auto;
+  max-width: 580px;
+  background-color: #fff;
+  box-shadow: 0px 5px 9px #00000029;
+  border: 1px ridge #00000029;
+  border-radius: 10px;
+  min-height: 400px;
+  padding: 50px 75px;
+  overflow: hidden;
+}
+.sign-section a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00408a;
+  text-decoration: none;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.login-block {
+  padding-top: 50px;
+}
+.input-group label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: left;
+}
+.input-group input {
+  width: 420px;
+  height: 45px;
+  border: 1px solid rgba(89, 89, 89, 0.8);
+}
+.input-group {
+  margin-bottom: 25px;
+}
+.hr-line {
+  height: 1px;
+  background-color: #595959;
+}
+.hr-line.full-line {
+  margin: 0 -150px;
+}
+.forgotten-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.sign-btn {
+  background: transparent linear-gradient(180deg, #75be22 0%, #03963b 100%);
+  border-radius: 20px;
+  width: 140px;
+  height: 45px;
+  color: #fff;
+  margin: auto;
+  padding: 10px 20px;
+  border: 0;
+  
+
+}
+.btn-block{
+    padding-top: 20px;
+}
+.line-block{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+.hr-line.full-width{
+    width: 100%;
+
+}
+.line-block span{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nhs-btn{
+    background-color: #00408a;
+    width: 220px;
+  height: 45px;
+  color: #fff;
+  margin: auto;
+  padding: 10px 20px;
+  text-align: center
+  
+}
+.nhs-login{
+text-align: center  ;
+margin-top: 35px    ;
+}
+.a-block{
+    color: #0064C2;
+}
+
+.active::after{
+    content: "";
+    border-bottom:5px solid #75be22;
+    display:block;
+    padding-bottom: 25px;
+    
+}
